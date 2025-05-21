@@ -5,16 +5,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AlienCode | Cybersecurity</title>
+  <title>AlienCode | Cyber Security</title>
 
-  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
-  <!-- CSS Links -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/remixicon.css">
   <link rel="stylesheet" href="assets/css/aos.css">
@@ -24,133 +24,172 @@
 
 <body>
 
-  <!-- Preloader -->
   <div class="alien-preloader-wrap">
     <div class="alien-preloader">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div></div><div></div><div></div><div></div>
     </div>
   </div>
 
-  <!-- Header -->
+  <div class="paginacontainer">
+    <div class="progress-wrap">
+      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+      <div class="top-arrow">
+        <i class="ri-arrow-up-s-line"></i>
+      </div>
+    </div>
+  </div>
+
   <header class="site-header alien-header-section" id="sticky-menu">
     <div class="alien-header-bottom bg-white">
       <div class="container">
         <nav class="navbar site-navbar">
           <div class="brand-logo">
             <a href="index.html">
-              <img src="assets/images/logo/Alien-logo.jpg" alt="AlienCode Logo" class="light-version-logo">
+              <img src="assets/images/logo/Alien-logo.jpg" alt="" class="light-version-logo">
             </a>
           </div>
           <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
             <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back"><i class="fa fa-angle-left"></i></div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
               <ul class="site-menu-main">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="index.html" class="nav-link-item">Home</a></li>
+                <li><a href="service.html" class="nav-link-item">Services</a></li>
+                <li><a href="about-us.html" class="nav-link-item">About Us</a></li>
+                <li><a href="contact-us.html" class="nav-link-item">Contact</a></li>
               </ul>
             </nav>
           </div>
           <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-            <a class="alien-default-btn alien-header-btn" href="contact-us.html" data-text="Get in Touch"><span class="btn-wraper">Get in Touch</span></a>
+            <div class="alien-header-icon">
+              <a class="alien-default-btn alien-header-btn" href="contact-us.html" data-text="Get in Touch">
+                <span class="btn-wraper">Get in Touch</span>
+              </a>
+            </div>
           </div>
+          <div class="mobile-menu-trigger"><span></span></div>
         </nav>
       </div>
     </div>
   </header>
 
-  <!-- Breadcrumb -->
-  <div class="alien-breadcrumb" style="background-image: url(assets/images/breadcrumb/cybersecurity.png)">
+  <div class="alien-header-search-section">
     <div class="container">
-      <h1 class="post__title">Cybersecurity</h1>
+      <div class="alien-header-search-box">
+        <input type="search" placeholder="Search here...">
+        <button id="header-search" type="button"><i class="ri-search-line"></i></button>
+        <p>Type above and press Enter to search. Press Close to cancel.</p>
+      </div>
+    </div>
+    <div class="alien-header-search-close"><i class="ri-close-line"></i></div>
+  </div>
+  <div class="search-overlay"></div>
+
+  <div class="alien-breadcrumb" style="background-image: url(assets/images/breadcrumb/breadcrumb.png)">
+    <div class="container">
+      <h1 class="post__title">Cyber Security</h1>
       <nav class="breadcrumbs">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="service.html">Services</a></li>
-          <li aria-current="page">Cybersecurity</li>
+          <li><a href="service.html">Service</a></li>
+          <li aria-current="page">Cyber Security</li>
         </ul>
       </nav>
     </div>
   </div>
 
-  <!-- Service Details Section -->
   <div class="section alien-section-padding">
     <div class="container">
       <div class="row">
         <div class="col-lg-8">
           <div class="alien-service-details-wrap">
-            <img src="assets/images/service/cybersecurity-overview.png" alt="Cybersecurity Overview" class="img-fluid">
+            <img data-aos="fade-up" data-aos-duration="800" src="assets/images/service/cyber-security.jpg" alt="">
+            
             <div class="alien-service-details-item">
               <h3>Overview</h3>
-              <p>Cybersecurity is the practice of defending systems, networks, and data from digital attacks. In today's interconnected world, safeguarding your digital assets is more critical than ever. Our cybersecurity services are designed to protect your business from evolving threats, ensuring the confidentiality, integrity, and availability of your information.</p>
+              <p>
+                At AlienCode, we offer comprehensive Cyber Security services designed to protect your digital assets and infrastructure. Our approach is proactive, resilient, and tailored to your business needs.
+              </p>
+              <p>
+                In a rapidly evolving threat landscape, our team provides strategic defenses, real-time threat detection, and ongoing risk mitigation to ensure your operations remain safe and uninterrupted.
+              </p>
             </div>
+
             <div class="alien-service-details-item">
               <h3>Features</h3>
-              <p>Our comprehensive cybersecurity solutions include:</p>
-              <ul>
-                <li>Advanced Threat Detection and Prevention</li>
-                <li>24/7 Security Monitoring and Incident Response</li>
-                <li>Data Encryption and Secure Access Controls</li>
-                <li>Compliance with Industry Standards (e.g., GDPR, HIPAA)</li>
-                <li>Employee Awareness Training</li>
-              </ul>
+              <p>
+                Our Cyber Security solutions offer end-to-end protection and ongoing support:
+              </p>
+              <div class="alien-icon-list">
+                <ul>
+                  <li><i class="ri-check-line"></i>Real-time Threat Detection & Monitoring</li>
+                  <li><i class="ri-check-line"></i>Network Security Architecture</li>
+                  <li><i class="ri-check-line"></i>Data Encryption & Privacy Compliance</li>
+                  <li><i class="ri-check-line"></i>Firewall & Endpoint Protection</li>
+                  <li><i class="ri-check-line"></i>Security Audits & Penetration Testing</li>
+                  <li><i class="ri-check-line"></i>Incident Response & Recovery</li>
+                </ul>
+              </div>
             </div>
+
             <div class="alien-service-details-item">
-              <h3>Goals</h3>
-              <p>Our primary objectives are to:</p>
-              <ul>
-                <li>Prevent unauthorized access and data breaches</li>
-                <li>Ensure business continuity through proactive threat management</li>
-                <li>Maintain compliance with relevant regulations and standards</li>
-                <li>Enhance overall security posture and resilience</li>
-              </ul>
+              <h3>Goal</h3>
+              <p>
+                Our goal is to safeguard your digital environment with top-tier cybersecurity measures. We help minimize vulnerabilities, ensure regulatory compliance, and build a secure foundation for business continuity.
+              </p>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4">
           <div class="alien-service-sidebar">
             <div class="alien-service-menu">
               <ul>
-                <li><a href="web-development-service.html">Web Development</a></li>
-                <li><a href="app-development-service.html">App Development</a></li>
-                <li><a href="ui-ux-design-service.html">UI/UX Design</a></li>
-                <li><a href="digital-marketing-service.html">Digital Marketing</a></li>
-                <li><a href="it-management-service.html">IT Management</a></li>
-                <li><a href="cyber-security-service.html">Cybersecurity</a></li>
+                <li><a href="web-development-service.html">Web Development <i class="ri-arrow-right-up-line"></i></a></li>
+                <li><a href="app-development-service.html">App Development <i class="ri-arrow-right-up-line"></i></a></li>
+                <li><a href="ui-ux-design-service.html">UI/UX Design <i class="ri-arrow-right-up-line"></i></a></li>
+                <li><a href="digital-marketing-service.html">Digital Marketing <i class="ri-arrow-right-up-line"></i></a></li>
+                <li><a href="it-management-service.html">IT Management <i class="ri-arrow-right-up-line"></i></a></li>
+                <li><a href="cyber-security-service.html" class="active">Cyber Security <i class="ri-arrow-right-up-line"></i></a></li>
               </ul>
             </div>
-            <div class="alien-service-contact" style="background-image: url(assets/images/service/contact-bg.png)">
+            <div class="alien-service-contact" data-aos="fade-up" data-aos-duration="800" style="background-image: url(assets/images/service/bg.png)">
               <div class="alien-service-contact-icon">
-                <img src="assets/images/service/contact-icon.svg" alt="Contact Icon">
+                <img src="assets/images/service/icon.svg" alt="">
               </div>
               <h3>Don't hesitate to contact us</h3>
-              <p>Our team is ready to assist you with any cybersecurity concerns or inquiries. Reach out today to learn how we can help secure your digital assets.</p>
-              <a class="alien-default-btn" href="contact-us.html" data-text="Get in Touch"><span class="btn-wraper">Get in Touch</span></a>
+              <p>We are here to help you secure your business with smart and reliable cybersecurity solutions.</p>
+              <a class="alien-default-btn" href="contact-us.html" data-text="Get in Touch">
+                <span class="btn-wraper">Get in Touch</span>
+              </a>
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </div>
 
-  <!-- Call to Action Section -->
   <div class="section bg-cover alien-section-padding" style="background-image: url(assets/images/cta/cta-bg3.png)">
     <div class="container">
       <div class="alien-cta-wrap">
         <div class="alien-cta-content center">
           <h2>Let’s work together</h2>
-          <p>Enhance your business's security with our tailored cybersecurity solutions. Together, we can build a resilient digital infrastructure.</p>
-          <a class="alien-default-btn alien-white-btn" href="contact-us.html" data-text="Let’s Start a Project"><span class="btn-wraper">Let’s Start a Project</span></a>
+          <p>Ready to elevate your business? Contact us today and let's build something amazing together.</p>
+          <div class="alien-extra-mt" data-aos="fade-up" data-aos-duration="600">
+            <a class="alien-default-btn alien-white-btn" href="contact-us.html" data-text="Let’s Start a Project"> <span class="btn-wraper">Let’s Start a Project</span> </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-
-  <!-- Footer  -->
+  <!-- End section -->
 
   <footer class="alien-footer-section dark-bg">
     <div class="container">
@@ -161,38 +200,20 @@
               <a href="index.html">
                 <img src="assets/images/logo/Alien-logo-dark.jpg" alt="">
               </a>
-              <p>Each demo built with Teba will look different. You can customize almost anything in the appearance of your website with only a few</p>
+                <p>We deliver tailored technology solutions to help your business grow. Partner with AlienCode for expert support, innovative strategies, and reliable service across IT, digital, and creative domains.</p>
               <div class="alien-social-icon-box">
                 <ul>
-                  <li>
-                    <a href="https://www.facebook.com/">
-                      <i class="ri-facebook-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/">
-                      <i class="ri-linkedin-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/">
-                      <i class="ri-twitter-fill"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/">
-                      <i class="ri-instagram-fill"></i>
-                    </a>
-                  </li>
+                  <li><a href="https://www.facebook.com/"><i class="ri-facebook-fill"></i></a></li>
+                  <li><a href="https://www.linkedin.com/"><i class="ri-linkedin-fill"></i></a></li>
+                  <li><a href="https://twitter.com/"><i class="ri-twitter-fill"></i></a></li>
+                  <li><a href="https://www.instagram.com/"><i class="ri-instagram-fill"></i></a></li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-xl-2 offset-xl-1 col-md-4">
             <div class="alien-footer-menu">
-              <div class="alien-footer-title">
-                <h5>Quick Links</h5>
-              </div>
+              <h5>Quick Links</h5>
               <ul>
                 <li><a href="about-us.html">About Us</a></li>
                 <li><a href="team.html">Our Team</a></li>
@@ -204,9 +225,7 @@
           </div>
           <div class="col-xl-3 col-md-5">
             <div class="alien-footer-menu">
-              <div class="alien-footer-title">
-                <h5>Services</h5>
-              </div>
+              <h5>Services</h5>
               <ul>
                 <li><a href="ui-ux-design-service.html">UI/UX Design</a></li>
                 <li><a href="app-development-service.html">App Development</a></li>
@@ -218,9 +237,7 @@
           </div>
           <div class="col-xl-2 col-md-3">
             <div class="alien-footer-menu mb-0">
-              <div class="alien-footer-title">
-                <h5>Information</h5>
-              </div>
+              <h5>Information</h5>
               <ul>
                 <li><a href="">Working Process</a></li>
                 <li><a href="">Privacy Policy</a></li>
@@ -233,17 +250,13 @@
       </div>
       <div class="alien-footer-bottom center">
         <div class="alien-copywright">
-          <p> Copyright © 2024 MirrorTheme. All rights reserved.</p>
+          <p>Copyright © 2024 MirrorTheme. All rights reserved.</p>
         </div>
       </div>
     </div>
   </footer>
 
-
-
-
-
-  <!-- scripts -->
+  <!-- Scripts -->
   <script src="assets/js/jquery-3.7.1.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/menu/menu.js"></script>
@@ -260,9 +273,7 @@
   <script src="assets/js/top-to-bottom.js"></script>
   <script src="assets/js/aos.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyArZVfNvjnLNwJZlLJKuOiWHZ6vtQzzb1Y"></script>
-
   <script src="assets/js/app.js"></script>
-
 
 </body>
 </html>
