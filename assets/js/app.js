@@ -6,22 +6,22 @@
   /*--------------------------------------------------------------
    [Table of contents]
   
-  optech PRELOADER JS INIT
-  optech HEADER SEARCH JS INIT
-  optech STICKY MENU JS INIT
-  optech MENU SIDEBAR JS INIT
-  optech SKILLBAR JS INIT
-  optech HERO SLIDER INIT
-  optech FOUR COLUMN SLIDER INIT
-  optech THREE COLUMN SLIDER INIT
-  optech FOUR COLUMN SLIDER TWO INIT
-  optech TWO COLUMN SLIDER INIT
-  optech ONE COLUMN SLIDER INIT
-  optech THREE COLUMN SLIDER TWO INIT
-  optech BRAND SLIDER INIT
-  optech COUNTER JS INIT
-  optech COUNTER JS TWO INIT
-  optech MAP JS
+  alien PRELOADER JS INIT
+  alien HEADER SEARCH JS INIT
+  alien STICKY MENU JS INIT
+  alien MENU SIDEBAR JS INIT
+  alien SKILLBAR JS INIT
+  alien HERO SLIDER INIT
+  alien FOUR COLUMN SLIDER INIT
+  alien THREE COLUMN SLIDER INIT
+  alien FOUR COLUMN SLIDER TWO INIT
+  alien TWO COLUMN SLIDER INIT
+  alien ONE COLUMN SLIDER INIT
+  alien THREE COLUMN SLIDER TWO INIT
+  alien BRAND SLIDER INIT
+  alien COUNTER JS INIT
+  alien COUNTER JS TWO INIT
+  alien MAP JS
    
   -------------------------------------------------------------------*/
 
@@ -34,19 +34,19 @@
   };
   $(function () {
     /*--------------------------------------------------------------
-    optech PRELOADER JS INIT
+    alien PRELOADER JS INIT
     --------------------------------------------------------------*/
-    $(".optech-preloader-wrap").fadeOut(500);
+    $(".alien-preloader-wrap").fadeOut(500);
 
     /*--------------------------------------------------------------
-    optech HEADER SEARCH JS INIT
+    alien HEADER SEARCH JS INIT
     ------------------------------------------------------------*/
-    $(".optech-header-search, .optech-header-search-close, .search-overlay").click(function () {
-      $(".optech-header-search-section, .search-overlay").toggleClass("open");
+    $(".alien-header-search, .alien-header-search-close, .search-overlay").click(function () {
+      $(".alien-header-search-section, .search-overlay").toggleClass("open");
     });
 
     /*--------------------------------------------------------------
-    optech STICKY MENU JS INIT
+    alien STICKY MENU JS INIT
     --------------------------------------------------------------*/
     $(window).on('scroll', function () {
       if ($(window).scrollTop() > 50) {
@@ -57,18 +57,18 @@
     });
 
     /*--------------------------------------------------------------
-    optech MENU SIDEBAR JS INIT
+    alien MENU SIDEBAR JS INIT
     --------------------------------------------------------------*/
-    $(".optech-header-barger").on("click", function (e) {
-      $(".optech-sidemenu-column, .offcanvas-overlay").addClass("active");
+    $(".alien-header-barger").on("click", function (e) {
+      $(".alien-sidemenu-column, .offcanvas-overlay").addClass("active");
       event.preventDefault(e);
     });
-    $(".optech-sidemenu-close, .offcanvas-overlay").on("click", function () {
-      $(".optech-sidemenu-column, .offcanvas-overlay").removeClass("active");
+    $(".alien-sidemenu-close, .offcanvas-overlay").on("click", function () {
+      $(".alien-sidemenu-column, .offcanvas-overlay").removeClass("active");
     });
 
     /*--------------------------------------------------------------
-    optech HERO SLIDER INIT
+    alien HERO SLIDER INIT
     --------------------------------------------------------------*/
     /*----------- Global Slider ----------*/
     $(".global-carousel").each(function () {
@@ -96,7 +96,7 @@
       $(slick.$slides).find('[data-ani]').removeClass('slider-animated');
       $(slick.$slides[currentSlide]).find('[data-ani]').addClass('slider-animated');
     });
-    var hero_slider = $('.optech-hero-slider');
+    var hero_slider = $('.alien-hero-slider');
     if (hero_slider.is_exist()) {
       hero_slider.slick({
         infinite: true,
@@ -107,15 +107,15 @@
         autoplay: false,
         speed: 800,
         lazyLoad: 'progressive',
-        prevArrow: '<button class="slide-arrow optech-hero-next"><i class="ri-arrow-left-s-line"></i></button>',
-        nextArrow: '<button class="slide-arrow optech-hero-prev"><i class="ri-arrow-right-s-line"></i></button>'
+        prevArrow: '<button class="slide-arrow alien-hero-next"><i class="ri-arrow-left-s-line"></i></button>',
+        nextArrow: '<button class="slide-arrow alien-hero-prev"><i class="ri-arrow-right-s-line"></i></button>'
       }).slickAnimation();
     }
 
     /*--------------------------------------------------------------
-    optech FOUR COLUMN SLIDER INIT
+    alien FOUR COLUMN SLIDER INIT
     --------------------------------------------------------------*/
-    var four_column_slider = $('.optech-4column-slider');
+    var four_column_slider = $('.alien-4column-slider');
     if (four_column_slider.is_exist()) {
       four_column_slider.slick({
         infinite: true,
@@ -167,9 +167,9 @@
     }
 
     /*--------------------------------------------------------------
-    optech THREE COLUMN SLIDER INIT
+    alien THREE COLUMN SLIDER INIT
     --------------------------------------------------------------*/
-    var three_column_slider = $('.optech-3column-slider');
+    var three_column_slider = $('.alien-3column-slider');
     if (three_column_slider.is_exist()) {
       three_column_slider.slick({
         infinite: true,
@@ -202,9 +202,9 @@
     }
 
     /*--------------------------------------------------------------
-    optech FOUR COLUMN SLIDER TWO INIT
+    alien FOUR COLUMN SLIDER TWO INIT
     --------------------------------------------------------------*/
-    var four_column_slider2 = $('.optech-4column-slider2');
+    var four_column_slider2 = $('.alien-4column-slider2');
     if (four_column_slider2.is_exist()) {
       four_column_slider2.slick({
         infinite: true,
@@ -233,9 +233,9 @@
     }
 
     /*--------------------------------------------------------------
-    optech TWO COLUMN SLIDER INIT
+    alien TWO COLUMN SLIDER INIT
     --------------------------------------------------------------*/
-    var two_column_slider = $('.optech-2column-slider');
+    var two_column_slider = $('.alien-2column-slider');
     if (two_column_slider.is_exist()) {
       two_column_slider.slick({
         infinite: true,
@@ -254,9 +254,9 @@
     }
 
     /*--------------------------------------------------------------
-    optech ONE COLUMN SLIDER INIT
+    alien ONE COLUMN SLIDER INIT
     --------------------------------------------------------------*/
-    var t_one_column_slider = $('.optech-1column-slider');
+    var t_one_column_slider = $('.alien-1column-slider');
     if (t_one_column_slider.is_exist()) {
       t_one_column_slider.slick({
         infinite: true,
@@ -266,15 +266,15 @@
         dots: false,
         autoplay: false,
         speed: 800,
-        prevArrow: '<button class="slide-arrow optech-t-next"><i class="ri-arrow-left-s-line"></i></button>',
-        nextArrow: '<button class="slide-arrow optech-t-prev"><i class="ri-arrow-right-s-line"></i></button>'
+        prevArrow: '<button class="slide-arrow alien-t-next"><i class="ri-arrow-left-s-line"></i></button>',
+        nextArrow: '<button class="slide-arrow alien-t-prev"><i class="ri-arrow-right-s-line"></i></button>'
       });
     }
 
     /*--------------------------------------------------------------
-    optech THREE COLUMN SLIDER TWO INIT
+    alien THREE COLUMN SLIDER TWO INIT
     --------------------------------------------------------------*/
-    var three_column_slider2 = $('.optech-3column-slider2');
+    var three_column_slider2 = $('.alien-3column-slider2');
     if (three_column_slider2.is_exist()) {
       three_column_slider2.slick({
         infinite: true,
@@ -298,11 +298,11 @@
     }
 
     /*--------------------------------------------------------------
-    optech BRAND SLIDER INIT
+    alien BRAND SLIDER INIT
     --------------------------------------------------------------*/
-    var optech_brand_slider = $('.optech-brand-slider');
-    if (optech_brand_slider.is_exist()) {
-      optech_brand_slider.slick({
+    var alien_brand_slider = $('.alien-brand-slider');
+    if (alien_brand_slider.is_exist()) {
+      alien_brand_slider.slick({
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
@@ -329,15 +329,15 @@
     }
 
     /*--------------------------------------------------------------
-    optech COUNTER JS INIT
+    alien COUNTER JS INIT
     --------------------------------------------------------------*/
-    var optech_counter = $('#optech-counter');
-    if (optech_counter.is_exist()) {
+    var alien_counter = $('#alien-counter');
+    if (alien_counter.is_exist()) {
       var a = 0;
       $(window).scroll(function () {
-        var oTop = $(optech_counter).offset().top - window.innerHeight;
+        var oTop = $(alien_counter).offset().top - window.innerHeight;
         if (a == 0 && $(window).scrollTop() > oTop) {
-          $('.optech-counter').each(function () {
+          $('.alien-counter').each(function () {
             var $this = $(this),
               countTo = $this.attr('data-percentage');
             $({
@@ -361,15 +361,15 @@
     }
 
     /*--------------------------------------------------------------
-    optech COUNTER JS TWO INIT
+    alien COUNTER JS TWO INIT
     --------------------------------------------------------------*/
-    var optech_counter2 = $('#optech-counter2');
-    if (optech_counter2.is_exist()) {
+    var alien_counter2 = $('#alien-counter2');
+    if (alien_counter2.is_exist()) {
       var a = 0;
       $(window).scroll(function () {
-        var oTop = $(optech_counter2).offset().top - window.innerHeight;
+        var oTop = $(alien_counter2).offset().top - window.innerHeight;
         if (a == 0 && $(window).scrollTop() > oTop) {
-          $('.optech-counter2').each(function () {
+          $('.alien-counter2').each(function () {
             var $this = $(this),
               countTo = $this.attr('data-percentage');
             $({
@@ -392,7 +392,7 @@
       });
     }
     /*--------------------------------------------------------------
-    optech AOS ANIMATION JS INIT
+    alien AOS ANIMATION JS INIT
     --------------------------------------------------------------*/
 
     AOS.init({
@@ -405,7 +405,7 @@
   $(window).on('load', function () {}); // End window LODE
 
   /*--------------------------------------------------------------
-  optech MAP JS
+  alien MAP JS
   ------------------------------------------------------------*/
   var google_map = $('#map');
   if (google_map.is_exist()) {
@@ -517,9 +517,9 @@
         position: new google.maps.LatLng(40.6700, -73.9400),
         map: map,
         // icon: 'assets/images/all-img/contact/map.png',
-        title: 'optech'
+        title: 'alien'
       });
-      var contentString = '<div id="content">' + '<div id="tpw">' + '<h3>optech' + '</div>';
+      var contentString = '<div id="content">' + '<div id="tpw">' + '<h3>alien' + '</div>';
       var infowindow = new google.maps.InfoWindow({
         content: contentString,
         maxWidth: 280

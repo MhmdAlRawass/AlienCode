@@ -2,12 +2,12 @@
 
 
 // ScrollSmoother.create({
-//   content: ".optech-smooth-scroll",
+//   content: ".alien-smooth-scroll",
 //   smooth: 1
 // });
 
 // const body = document.body,
-//   jsScroll = document.getElementsByClassName("optech-smooth-scroll")[0],
+//   jsScroll = document.getElementsByClassName("alien-smooth-scroll")[0],
 //   height = jsScroll.getBoundingClientRect().height - 1,
 //   speed = 0.05;
 
