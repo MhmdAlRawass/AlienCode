@@ -1,4 +1,13 @@
 /* Slider */
+.slider-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    width: 100%;
+}
+
+
 .slick-slider
 {
     position: relative;
@@ -16,6 +25,7 @@
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+    width: 80%;
 }
 
 .slick-list

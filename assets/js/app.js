@@ -123,44 +123,45 @@
         slidesToScroll: 1,
         arrows: false,
         dots: true,
-        autoplay: false,
-        centerMode: true,
+        autoplay: true,
+        autoplaySpeed: 2000, 
+        centerMode: false,
         centerPadding: '300px',
         responsive: [{
           breakpoint: 1600,
           settings: {
-            slidesToShow: 3,
-            centerPadding: '250px'
+          slidesToShow: 3,
+          centerPadding: '250px'
           }
         }, {
           breakpoint: 1399,
           settings: {
-            slidesToShow: 3,
-            centerPadding: '150px'
+          slidesToShow: 3,
+          centerPadding: '150px'
           }
         }, {
           breakpoint: 1199,
           settings: {
-            slidesToShow: 3,
-            centerPadding: '100px'
+          slidesToShow: 3,
+          centerPadding: '100px'
           }
         }, {
           breakpoint: 992,
           settings: {
-            slidesToShow: 2,
-            centerPadding: '100px'
+          slidesToShow: 2,
+          centerPadding: '100px'
           }
         }, {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1,
-            centerPadding: '100px'
+          slidesToShow: 1,
+          centerPadding: '100px'
           }
         }, {
           breakpoint: 575,
           settings: {
-            slidesToShow: 1,
-            centerPadding: '0px'
+          slidesToShow: 1,
+          centerPadding: '0px'
           }
         }]
       });
